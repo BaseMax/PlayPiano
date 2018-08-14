@@ -1,0 +1,153 @@
+/* 
+ *
+ * Play Piano
+ * Author: Base Max (https://github.com/BaseMax)
+ * Repo : https://github.com/BaseMax/PlayPiano
+ *
+ */
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-color: #FFF0F0;
+}
+#center
+{
+	width: 430px;
+	height: auto;
+	margin: auto;
+}
+#piano
+{
+	margin-top: 150px;
+	border-radius: 18px;
+	width: 430px;
+	height: 430px;
+	background: linear-gradient(#e02016,#CB1E1B);
+}
+#piano input[type=range]
+{
+	background-color: #8A1817;
+}
+.slider
+{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	-webkit-appearance: none;
+	width: 80%;
+	margin-left: 10%;
+	height: 15px;
+	border-radius: 9px;
+	background: #811816;
+	outline: none;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb
+{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 50px;
+	z-index: 9999;
+	height: 50px;
+	background: #F8E8EB;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slider::-moz-range-thumb
+{
+	position: relative;
+	z-index: 9999;
+	width: 50px;
+	height: 50px;
+	background: #F8E8EB;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#break
+{
+	margin-top: 20px;
+	width: 100%;
+	height: 5px;
+	float: left;
+	clear: both;
+	background-color: #521411;
+}
+ul#keys
+{
+	float: left;
+	width: 85%;
+	margin-left: 7.5%;
+	height: 250px;
+	background-color: #110D0D;
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+ul#keys li
+{
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	width: 46.5px;
+	height: 244px;
+	border-radius: 8px;
+	margin-left: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background-color: #CCCDCE;
+}
+ul#keys li .key
+{
+	width: 46.5px;
+	height: 228px;
+	float: left;
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: linear-gradient(#A5A5A5,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF);
+}
+ul#sub-keys
+{
+	float: left;
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	top: auto;
+	margin-top: 25px;
+	left: auto;
+}
+ul#sub-keys li
+{
+	cursor: pointer;
+	margin-left: 20px;
+	width: 35px;
+	height: 130px;
+	background: #000000;
+	list-style: none;
+	float: left;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+ul#sub-keys li#padd
+{
+	margin-left: 63px;
+}
+ul#sub-keys li:first-child
+{
+	margin-left: 67px;
+}
+ul#sub-keys li .key
+{
+	margin-left: 3.5px;
+	width: 28px;
+	height: 125px;
+	float: left;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: linear-gradient(#272B2E,#2D3237,#1E2327,#0F1215,#0F1215,#0F1215,#3D3F42,#3D3F42);
+}
