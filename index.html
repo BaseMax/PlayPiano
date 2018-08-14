@@ -1,0 +1,58 @@
+<!-- Programmer : Base Max -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Play Piano</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="center">
+			<div id="piano">
+				<input class="slider" type="range" min="1" max="100" value="50">
+				<input class="slider" type="range" min="1" max="100" value="50">
+				<div id="break"></div>
+				<ul class="keys" id="keys">
+					<li data-music="fa">
+						<div class="key"></div>
+					</li>
+					<li data-music="sol">
+						<div class="key"></div>
+					</li>
+					<li data-music="la">
+						<div class="key"></div>
+					</li>
+					<li data-music="si">
+						<div class="key"></div>
+					</li>
+					<li data-music="do">
+						<div class="key"></div>
+					</li>
+					<li data-music="re">
+						<div class="key"></div>
+					</li>
+					<li data-music="mi">
+						<div class="key"></div>
+					</li>
+				</ul>
+				<ul class="keys" id="sub-keys">
+					<li data-music="reb">
+						<div class="key"></div>
+					</li>
+					<li data-music="mib">
+						<div class="key"></div>
+					</li>
+					<li data-music="solb">
+						<div class="key"></div>
+					</li>
+					<li id="padd" data-music="lab">
+						<div class="key"></div>
+					</li>
+					<li data-music="sib">
+						<div class="key"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
