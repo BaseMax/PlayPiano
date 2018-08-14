@@ -8,5 +8,5 @@ Implement and simulate piano on web page.
 
 Effective Members List :
 ------------
-**Graphic artist:** Matthew Skiles
-**Programmer:** Base Max
+- **Graphic artist:** Matthew Skiles
+- **Programmer:** Base Max
